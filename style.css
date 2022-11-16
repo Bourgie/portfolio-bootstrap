@@ -84,6 +84,9 @@ h1 {
   font-size: 1.5rem;
   color: #615151;
 }
+.hero-inferior-imagen {
+  width: 600px;
+}
 
 /* Sobre mi */
 
@@ -403,10 +406,8 @@ footer {
   .testimonio-texto {
     font-size: 18px;
   }
-}
-
-@media screen and (min-width: 700px) {
-  .hero-inferior-imagen {
-    max-width: 600px;
+  .hero-inferior-imagen{
+    display: none;
   }
 }
+
