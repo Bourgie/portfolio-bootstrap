@@ -275,6 +275,9 @@ h1 {
 }
 
 /* Contacto */
+.contacto{
+  gap: 15px;
+}
 
 .contacto .container {
   max-width: 1100px;
@@ -377,6 +380,19 @@ footer {
   font-size: 15px;
   color: #aeaeae;
   padding: 20px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.form p{
+  color: white;
+  font-size: 1.2rem;
+  width: 80%;
+}
+.form p input{
+  border-radius: 5px;
+  border: none;
 }
 
 /* Adaptable (Responsivo) */
